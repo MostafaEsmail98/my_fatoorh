@@ -1,7 +1,13 @@
-name: my_fatoorh
-description: "A new Flutter project."
-version: 0.0.1
-homepage:
+name: my_fatoorah
+description: "A typed Flutter and Dart SDK for integrating MyFatoorah hosted payments, payment status, webhooks, and embedded sessions."
+version: 0.1.0
+# TODO: Add repository/homepage URL before publishing publicly.
+topics:
+  - payments
+  - myfatoorah
+  - checkout
+  - fintech
+  - flutter
 
 environment:
   sdk: ^3.10.7
@@ -10,11 +16,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  dio: ^5.10.0
+  json_annotation: ^4.12.0
+  crypto: ^3.0.7
+  web: ^1.1.1
+  url_launcher: ^6.3.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  build_runner: ^2.15.1
+  json_serializable: ^6.14.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
